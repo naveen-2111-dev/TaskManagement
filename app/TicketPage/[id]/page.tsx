@@ -1,9 +1,8 @@
 import { props } from "@/types"
+import TicketForm from "../../(components)/TicketForm";
 
 const TicketPage = ({ params }: props) => {
-  return (
-      <div>TicketPage { params.id }</div>
-  )
+  return <TicketForm />;
 }
 
 export default TicketPage

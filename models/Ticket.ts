@@ -1,7 +1,7 @@
 import mongoose, { Schema } from 'mongoose';
-import { ProcessEnv } from '@/types';
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI =
+  'mongodb+srv://TicketingApp:Ticket@cluster0.v7u7ufz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 if (!MONGO_URI) {
   throw new Error('MONGO_URI is not defined.');
 }

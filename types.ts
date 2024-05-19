@@ -3,6 +3,6 @@ export interface props {
   req: any;
 }
 
-export interface ProcessEnv{
-    MONGO_URI: string;
+export interface ProcessEnv {
+  MONGO_URI: string;
 }
